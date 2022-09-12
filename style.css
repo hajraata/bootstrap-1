@@ -138,7 +138,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 980px) {
   .header {
     height: fit-content;
     flex-direction: column;
@@ -152,8 +152,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 940px) {
-  .card-deck {
-    width: 100%;
+@media screen and (max-width: 860px) {
+  .service-deck {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card {
+    margin: 2%;
   }
 }
