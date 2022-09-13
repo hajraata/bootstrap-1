@@ -146,9 +146,19 @@ footer {
     align-items: center;
   }
 
+  .headings {
+    width: 60vw;
+  }
+
+  .headings h4,
+  .headings h6 {
+    display: block;
+  }
+
   .images {
     height: auto;
     width: 40%;
+    margin: 3%;
   }
 }
 
